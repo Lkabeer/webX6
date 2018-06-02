@@ -1,0 +1,92 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+#pageX {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: lightskyblue;
+    font-family: cursive;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    width: 20%;
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 10px 0;
+    font-family: monospace;
+    font-size: large;
+}
+
+nav a:hover {
+    background-color: lightskyblue;
+}
+
+#heroX {
+    position: relative;
+    clear: both;
+}
+
+#heroX article {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    top: 5%;
+    right: 2%;
+    padding: 0 2%;
+    border-radius: 20px;
+}
+
+
+article {
+    text-align: justify;
+    max-width: 50.5%;
+    float: left;
+    margin: 0 2.5% 0 5%;
+}
+
+aside {
+    text-align: justify;
+    max-width: 32.5%;
+    float: left;
+    margin: 0 5% 0 2.5%;
+}
+
+footer {
+    background-color: aqua;
+    clear: both;
+    text-align: center;
+    font-size: xx-small;
+}
+
+article img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid white;
+    box-shadow: 1px 1px 15px #888;
+}
